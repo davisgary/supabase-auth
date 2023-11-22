@@ -11,7 +11,7 @@ const IndexPage: React.FC<PageProps> = () => {
         <h1 className="text-6xl text-center font-sans font-bold">Sign In</h1>
         <p className="text-lg text-center text-xl mt-6">or sign up in seconds</p>
         <div className="flex justify-center">
-          <Link to="" className="inline-flex items-center">
+          <Link to="/signup" className="inline-flex items-center">
             <button className="px-7 py-1 mt-4 text-xl font-sans font-medium text-white leading-loose bg-blue-600 hover:bg-blue-700 rounded-md">
               Sign Up
             </button>

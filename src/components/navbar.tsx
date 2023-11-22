@@ -12,12 +12,12 @@ const Navbar: React.FC = () => {
       </div>
       <div className="text-sm flex-grow flex items-center justify-end">
         <Link
-          to=""
+          to="/signin"
           className="inline-block flex items-center mr-9 text-base font-sans font-medium text-black"
         >
           Sign In
         </Link>
-        <Link to="" className="inline-block flex items-center">
+        <Link to="/signup" className="inline-block flex items-center">
           <button className="px-6 py-2 text-base font-sans font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md">
             Sign Up
           </button>
